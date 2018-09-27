@@ -13,7 +13,7 @@ class Ex_2_23 {
 		double distace = input.nextDouble();
 		System.out.print("Enter miles per gallon: ");
 		double milesPerGallon = input.nextDouble();
-		System.out.print("Enter price per gallon: ");
+		System.out.print("Enter price per gallon: $");
 		double pricePerGallon = input.nextDouble();	
 		double costOfDriving = (distace / milesPerGallon) * pricePerGallon;
 		System.out.println("The cost of driving is $" + costOfDriving);
