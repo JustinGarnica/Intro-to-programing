@@ -16,8 +16,10 @@ public class Ex_3_23 {
 		System.out.print(" y: ");
 		double y = input.nextDouble();
 
-		boolean withinRectangle = (Math.pow(Math.pow(x, 2), 0.5) <= 10 / 2 ) ||
-										  (Math.pow(Math.pow(y, 2), 0.5) <= 5.0 / 2);
+		boolean withinRectangle = (Math.pow(Math.pow(x, 2), 0.5) <= 10 / 2 ) &&
+										  (Math.pow(Math.pow(y, 2), 0.5) <= 5.0 / 2 ) &&
+										(Math.pow(Math.pow(x, 2), 0.5) >= -10 / 2 ) &&
+											 (Math.pow(Math.pow(y, 2), 0.5) >= -5.0 / 2);
 
 		System.out.println("Point (" + x + ", " + y + ") is " +
 			((withinRectangle) ? "in " : "not in ") + "the rectangle");
