@@ -1,6 +1,6 @@
 		/*
 		Author: Justin Garnica
-		Date: 10/26/2018
+		Date: 10/30/2018
 
 		Tells the payroll of any person
 		*/
