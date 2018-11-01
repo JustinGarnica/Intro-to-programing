@@ -37,7 +37,7 @@
 				System.out.println("Deductions: ");
 				System.out.println("\tFederal Withholding: " + federal_tax);
 				System.out.println("\tState Withholding: " + state_tax);
-				System.out.printf("\t Total Deduction: %.2f", totaltax);
+				System.out.printf("\t Total Deduction: $%.2f", totaltax);
 				System.out.printf("\n Net Pay: $%.2f", netpay);
 				
 				
