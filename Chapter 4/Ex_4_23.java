@@ -26,7 +26,8 @@
 				double state_tax = input.nextDouble();
 				
 				double grosspay = (wage * hours);
-				double totaltax = (state_tax + federal_tax);
+				double totaltax = ((
+				state_tax + federal_tax) * grosspay);
 				double netpay = (grosspay - totaltax);
 				
 				System.out.println("\nEmployee Name: " + name);
