@@ -4,8 +4,6 @@ Date: 11/9/2018
 
 Print all numbers that are multiples of 5 or 6, but not both between 100 and 200
 */
-import java.util.Scanner;
-
 public class Ex_5_11 {
 	public static void main(String[] args) {
 
