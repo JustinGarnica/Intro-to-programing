@@ -13,16 +13,17 @@ public class Ex_6_3 {
 		return input.nextInt();
 	}
 	
-	public static boolean isPalindrome(int number) {
-		int rev = rev(number);
-		return number == rev;
+	public static boolean isPalindrome(int num) {
+		int rev = rev(num);
+		return num == rev;
 	}
 	
-	public static int rev(int Number) {
+	public static int rev(int num) {
 		
-		int num = 0;
+
 		int rem = 0;
 		int rev = 0;
+		
 		
 		while (num != 0) {
 			rem = num % 10;
