@@ -1,6 +1,6 @@
 /*
 Author: Justin Garnica
-Date: 11/30/20189
+Date: 11/30/2018
 
 Determine if a number is a palindrome number
 */
