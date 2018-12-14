@@ -9,17 +9,20 @@ import java.util.Scanner;
 public class Ex_6_37 {
 	
 	public static String format(int number, int width){
-		String stringnum = " " + number;
+		String stringnum = "" + number;
 		int numberlength = stringnum.length();
 		if (numberlength >= width) {
 			return stringnum;
 		} else {
-			for (int prezero = numberlength - width;) {
-				System.out.print("0");
+			int prezero = width - numberlength;
+			for (int i = 0; i < prezero; i++) {
+				stringnum = "0" + stringnum;
 			}
-			
 		}
-	}
+					
+		return stringnum;
+	}	
+		
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a Number: ");
@@ -29,6 +32,5 @@ public class Ex_6_37 {
 		int width = input.nextInt();
 		
 		System.out.print(format(number, width));
-		return format(number, width);
 	}
 }
