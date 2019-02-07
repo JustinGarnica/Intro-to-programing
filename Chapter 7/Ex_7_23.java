@@ -8,7 +8,11 @@ Solve the locker puzzle.
 class Ex_7_23 {
 	public static void main(String[] args) {
 		for ( int i = 0; i < 100; i++){
-			
+			if (condition) {
+				code
+			} else {
+				code
+			}
 		}
 		
 	}
