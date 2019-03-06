@@ -19,7 +19,7 @@ class Ex_8_37 {
 			{"maine", "augusta"},
 			{"mississississippi", "jackson"},
 		}; 
-		int specialnum = math.round(math.random * 9);
+		int specialnum = (int) Math.round(Math.random() * 9);
 		
 	}
 }
